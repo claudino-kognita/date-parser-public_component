@@ -6,7 +6,6 @@ from date_parser.component.constants import IMAGE_NAME, IMAGE_TAG, MEMORY_LIMIT,
 from date_parser.component.utils import setup_resources
 
 
-@dsl.component
 def make_date_parser(datetime: str, input_format: str, output_format: str, days_to_add: int,
                      command: str = STARTUP_COMMAND, image_name: str = IMAGE_NAME, image_tag: str = IMAGE_TAG,
                      memory_limit: int = MEMORY_LIMIT, memory_request: int = MEMORY_REQUEST,
