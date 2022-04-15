@@ -27,7 +27,7 @@ def make_date_parser(datetime: str, input_format: str, output_format: str, days_
             datetime
         ],
         file_outputs={
-            'output': OUTPUT_PATH,
+            'converted_date': OUTPUT_PATH,
         }
     )
 
