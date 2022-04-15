@@ -10,6 +10,6 @@ setup(
     author_email='',
     description='A component for converting date-time formats',
     install_requires=[
-        "kfp==1.4.0"
+        "kfp==1.8.12"
     ]
 )
