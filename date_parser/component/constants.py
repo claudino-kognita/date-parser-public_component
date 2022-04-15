@@ -10,4 +10,4 @@ CPU_LIMIT = '200m'
 
 STARTUP_COMMAND = "date-parser"
 
-OUTPUT_PATH = "/output.txt"
+OUTPUT_PATH = "output.txt"
