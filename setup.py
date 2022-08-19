@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='date-parser-component',
+    name='date-parser_component',
     version='1.0.0',
     packages=find_packages(),
     url='',
